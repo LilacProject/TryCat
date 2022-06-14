@@ -1,0 +1,49 @@
+.sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-p1);
+    overflow: hidden;
+  }
+  
+.titulo_sobre{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+  .sobre-conteudo {
+    padding: 40px 40px 80px 80px;
+    align-self: end;
+  }
+  
+  .sobre-conteudo p {
+    max-width: 32ch;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 32px;
+    position: relative;
+  }
+  
+  .sobre p::before,
+  .sobre p::after {
+    font-size: 5rem;
+    color: var(--cor-p2);
+    position: absolute;
+  }
+
+  @media (max-width: 800px) {
+    .sobre {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .sobre img {
+      max-height: 200px;
+    }
+    .sobre-conteudo {
+      padding: 40px 20px;
+      margin: auto;
+    }
+  }

@@ -1,0 +1,87 @@
+.cursos{
+    padding: 60px 0;
+}
+
+.cursos_lista{
+	margin-left: 200px;
+}
+
+.cursos_lista li{
+	background: #CBBCE7;
+	text-align: center;
+    border-radius: 10px;
+}
+
+.cursos_lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+
+.cursos_lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #64459A;
+	margin: 2px auto;
+}
+
+.subtitulo{
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 24px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subtitulo::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #64459A;
+    margin: 8px auto;
+}
+
+.cursos_lista li p {
+	padding: 10px 20px 20px 20px;
+}
+
+.cursos_icone{
+    padding: 20px;
+    text-align: center;
+}
+
+.call {
+	padding-top: 40px;
+	text-align: center;
+	clear: both;
+}
+
+.call p{
+	margin-bottom: 20px;
+}
+
+.btn {
+	border: 3px solid #4C3474;
+    border-radius: 5px;
+	padding: 10px 30px;
+	color: #4C3474;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.btn.btn-preto:hover {
+	color: #000;
+	border-color: #000;
+}
