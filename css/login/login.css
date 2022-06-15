@@ -6,10 +6,9 @@
     border: none;
 }
 
-body{
+#bgcor{
     background: #64459A;
-}
-
+} 
 textarea:focus, input:focus{
     outline: none;
 }

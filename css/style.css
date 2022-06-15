@@ -6,6 +6,8 @@
 
 @import "./utilidades/componentes.css";
 
+/* Cadastro */
+@import "./login/login.css";
 /* Home */
 @import "./home/introducao.css";
 @import "./home/cursos-lista.css";
@@ -13,9 +15,6 @@
 @import "./home/planos.css";
 
 
-/* Cadastro */
-@import "./login/login.css";
-@import "./cadastro/cadastro.css";
 
 html {
     scroll-behavior: smooth;

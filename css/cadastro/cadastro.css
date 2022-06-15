@@ -4,9 +4,9 @@
   font-family: 'Roboto', sans-serif;
 }
 
-body {
-  color: #CBBCE7;
-}
+#cordefundo {
+ background-color: #ba9bf5;
+} 
 
 .container {
   display: flex;
@@ -19,14 +19,14 @@ body {
   background-color: #ffffff80;
   padding: 30px;
   border-radius: 4%;
-  box-shadow: 3px 3px 1px 0px #00000060;
+  box-shadow: 3px 3px 1px 0px #64459A;
   width: 400px;
 }
 
 h1{
   text-align: center;
   margin-bottom: 20px;
-  color: black
+  color: b#64459A
 }
 
 .label-float input{
@@ -34,7 +34,7 @@ h1{
   padding: 5px 5px;
   display: inline-block;
   border: 0;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #64459A;
   background-color: transparent;
   outline: none;
   min-width: 180px;
@@ -57,7 +57,6 @@ h1{
 
 .label-float label{
   color: black;
-  pointer-event: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -74,8 +73,8 @@ h1{
 
 button{
   background-color: transparent;
-  border-color: #0d009c;
-  color: #0d009c;
+  border-color: #64459A;
+  color: #64459A;
   padding: 7px;
   font-weight: bold;
   font-size: 12pt;
@@ -87,7 +86,7 @@ button{
 }
 
 button:hover{
-  background-color: #0d009c;
+  background-color: #64459A;
   color: #fff;
 }
 
