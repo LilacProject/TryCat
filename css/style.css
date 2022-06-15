@@ -1,20 +1,18 @@
-@import "css/utilidades/tipografia.css";
-@import "css/global/global.css";
+@import url(utilidades/tipografia.css);
+@import url(global/global.css);
 
-@import "css/global/header.css";
-@import "css/global/footer.css";
+@import url(global/header.css);
+@import url(global/footer.css);
 
-@import "css/utilidades/componentes.css";
+@import url(utilidades/componentes.css);
 
 /* Cadastro */
-@import "css/login/login.css";
+@import url(login/login.css);
 /* Home */
-@import "css/home/introducao.css";
-@import "css/home/cursos-lista.css";
-@import "css/home/sobre.css";
-@import "css/home/planos.css";
-
-
+@import url(home/introducao.css);
+@import url(home/cursos-lista.css);
+@import url(home/sobre.css);
+@import url(home/planos.css);
 
 html {
     scroll-behavior: smooth;

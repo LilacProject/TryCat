@@ -18,10 +18,14 @@
     <div id="login-container">
         <h1>Entre</h1>
         <form action="">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off">
-            <label for="password">Senha</label>
-            <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+            <div class='label-float'>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
+            </div>
+            <div class="label-float">
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Senha">
+            </div>
             <a href="#" id="esqueceu-senha">Esqueceu a senha?</a>
             <input type="submit" value="Entrar">
         </form>

@@ -17,8 +17,13 @@ a, label{
     font-size: .8rem;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
 a:hover{
-    color: #CBBCE7
+    color: #64459A
 }
 
 #login-container{
@@ -55,7 +60,7 @@ input{
 }
 
 input:focus{
-    border-bottom: 2px solid #CBBCE7;
+    border-bottom: 2px solid #64459A;
 }
 
 #esqueceu-senha{
@@ -74,6 +79,49 @@ input[type="submit"]{
     background: #64459A;
     cursor: pointer;
 }
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #64459A;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+    
+  }
+  
+  .label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .label-float input:focus{
+    border-bottom: 2px solid black;
+  }
+  
+  .label-float label{
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+  }
+  
+  .label-float input:focus + label,
+  .label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #64459A
+  }
+  
 
 input[type="submit"]:hover{
   background-color: #1b223c;
